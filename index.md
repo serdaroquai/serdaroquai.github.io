@@ -5,7 +5,7 @@ You can use the [editor on GitHub](https://github.com/serdaroquai/serdaroquai.gi
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 {% for post in site.posts %}
-### [{{ post.url }}]({{ post.title }})
+### [{{ post.title }}]({{ post.url }})
 {{ post.excerpt }}
 {% endfor %}
 
